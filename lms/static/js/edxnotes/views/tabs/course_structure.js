@@ -6,7 +6,6 @@ define([
 ], function (gettext, _, NoteGroupView, TabPanelView, TabView) {
     var view = "Location in Course";
     var CourseStructureView = TabView.extend({
-        view: 'Location in Course',
         PanelConstructor: TabPanelView.extend({
             id: 'structure-panel',
             title: view,
